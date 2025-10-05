@@ -1,0 +1,19 @@
+CriteriaBuilder in Spring JPA
+------------------------------
+
+Employee Table
+
+id, name, age, salary, designation, city, status, email,
+
+example on 
+
+like query
+•	cb.isNull(x): Checks if x is NULL. ---------- Done
+•	cb.isNotNull(x): Checks if x is not NULL. ------ Done
+•	cb.and(predicates...): Combines multiple predicates with AND. --- Done
+•	cb.or(predicates...): Combines multiple predicates with OR. --- Done
+In clause ---------- Done 
+
+How to use Specification ---------- Done
+
+Join - 3 tables ----------- Done
